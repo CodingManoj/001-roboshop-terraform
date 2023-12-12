@@ -10,4 +10,5 @@ module "instances" {
     sgid               = var.sgid
     zone_id            = var.zone_id    
     MYSQL_PSW          = var.MYSQL_PSW
+    components         = var.components
 }  
