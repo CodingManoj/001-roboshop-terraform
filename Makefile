@@ -1,4 +1,5 @@
 dev:
+    rm -rf .terraform
 	terraform init -backend-config=env-dev/state.tfvars
 	terraform plan -var-file=env-dev/main.tfvars
 	sleep 3
