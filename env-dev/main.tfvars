@@ -1,5 +1,6 @@
 sgid        = ["sg-052fd946b7e11841a"]
 zone_id     = "Z031297333JO38PNHPROR"
+MYSQL_PSW   = "RoboShop@1"
 
 components = {
     cart = {
@@ -44,4 +45,3 @@ components = {
     }
 }
 
-MYSQL_PSW  = "RoboShop@1"
