@@ -1,4 +1,4 @@
 variable "components" {}
 variable "sgid" {}
-variable "zoneid" {}
+variable "zone_id" {}
 variable "MYSQL_PSW" {}
