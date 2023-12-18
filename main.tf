@@ -22,5 +22,5 @@ module "components" {
 } 
 
 output "op" {
-    value = module.components.op 
+    value = module.components.main.op 
 }
