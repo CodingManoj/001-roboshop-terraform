@@ -1,4 +1,5 @@
 variable "vpc" {}
+variable "subnets" {}
 
 # variable "sgid" {}
 # variable "zone_id" {}
