@@ -1,4 +1,5 @@
 variable "cidr" {}
+variable "vpc" {}
 
 # variable "sgid" {}
 # variable "zone_id" {}
