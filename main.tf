@@ -20,3 +20,7 @@ module "components" {
     cidr            = each.value["cidr"]
     subnets         = each.value["subnets"]
 } 
+
+output "op" {
+    value = module.components.op 
+}
